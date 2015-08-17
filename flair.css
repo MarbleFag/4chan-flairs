@@ -1,0 +1,277 @@
+/* This makes it so flairs don't show up at the top of the page.  */
+a[title="Profile"]:after,a.upvoatsGiven:after{content:none;}
+
+/*Special Flairs*/
+a[href$="/user/Flux"]:after {
+    content: " .## Αdmіn";
+    color: #900
+}
+a[href$="/user/Flux"] {
+    color: #900 !important;
+}
+a[href$="/user/normal_dude"]:after {
+    content: " ­## Mod";
+    color: #7D26CD
+}
+a[href$="/user/normal_dude"] {
+    color: #7D26CD !important;
+}
+a[href$="/user/Ravage"]:after {
+    content: " ­## Mod";
+    color: #7D26CD
+}
+a[href$="/user/ravage"] {
+    color: #7D26CD !important;
+}
+a[href$="/user/ravage"]:after {
+    content: " ­## Mod";
+    color: #7D26CD
+}
+a[href$="/user/Ravage"] {
+    color: #7D26CD !important;
+}
+a[href$="/user/Domslord"]:after {
+    content: " ­## Mod";
+    color: #7D26CD
+}
+a[href$="/user/Domslord"] {
+    color: #7D26CD !important;
+}
+.dark a[href$="/user/Flux"]:after {
+    content: " ­## Αdmіn";
+    color: #B88146;
+}
+.dark a[href$="/user/Flux"] {
+    color: #B88146 !important;
+}
+.dark a[href$="/user/normal_dude"]:after {
+    content: " ­## Mod";
+    color: #117743;
+}
+.dark a[href$="/user/normal_dude"] {
+    color: #117743 !important;
+}
+.dark a[href$="/user/Ravage"]:after {
+    content: " ­## Mod";
+    color: #117743;
+}
+.dark a[href$="/user/ravage"] {
+    color: #117743 !important;
+}
+.dark a[href$="/user/ravage"]:after {
+    content: " ­## Mod";
+    color: #117743;
+}
+.dark a[href$="/user/Ravage"] {
+    color: #117743 !important;
+}
+.dark a[href$="/user/Domslord"]:after {
+    content: " ­## Mod";
+    color: #117743;
+}
+.dark a[href$="/user/Domslord"] {
+    color: #117743 !important;
+}
+a[href$="/user/CALL_ME_ISHMAEBY"]:after {
+    content: " " url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAOCAMAAAD+MweGAAAADFBMVEX///8AAADbAAD///+Ay8izAAAAAXRSTlMAQObYZgAAAEJJREFUeNptz0EKACAMA0FT//9n7YZiUXMIZC6lg8jxAKZTJMCE7S2QFsKsTmiS4ycRIZ1GTpCLuKUOKVAHW9vvpwu5WAFlaSFcjQAAAABJRU5ErkJggg==); }
+
+/*Actual admin flairs*/
+a[href$="/user/Atko"]:after, a[href$="/user/PuttItOut"]:after { content: " " url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAMAAADHVLbdAAAAjVBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABZAAAAAABrAABVAAB5AAAAAACGAAAAAAA0AACIAABlAAB4AAC2AACfAACrAADKAAAAAABrAACfAACuAACzAADEAADNAADOAADkAADrAADyAAD0AAD/AADjfE8YAAAAInRSTlMANjxRVGVrdXl8gIaPl5+rrrC0v8PI0t/h5Obr7fLy9fX8W685egAAAJBJREFUeNptjUcSgzAQBIdkMDnnKLLA+//nWVZxdB+mqy+7QMGYjR82YwVQTZx3rki343yqoNQH8caD13A6agXhcBEtCZKF6BpCvNp5njMNWibcvgDTcRwdgC5s4h8+85+VBONnDJ4VRP1Nq7i/0t1HoouTnqazkL3tsvdNtlnGaW7AyNO4lP8sVTOE3rZqAV+1dQ5sIXW7CQAAAABJRU5ErkJggg==); }
+
+/*Retards*/
+/*
+a[href$="/user/"]:after,
+{ content: "wee/a/boo"; }
+
+a[href$="/user/"]:after,
+{ content: "/adv/isor"; }
+
+a[href$="/user/"]:after,
+{ content: "/an/al"; }
+
+a[href$="/user/"]:after,
+{ content: "/b/tard"; }
+
+a[href$="/user/"]:after,
+{ content: "/c/itizen"; }
+
+a[href$="/user/"]:after,
+{ content: "/cgl/"; }
+
+a[href$="/user/"]:after,
+{ content: "co/ck/"; }
+
+a[href$="/user/"]:after,
+{ content: "/cm/"; }
+
+a[href$="/user/"]:after,
+{ content: "/co/mrade"; }
+
+a[href$="/user/"]:after,
+{ content: "/d/eviant"; }
+
+a[href$="/user/"]:after,
+{ content: "/diy/"; }
+
+a[href$="/user/"]:after,
+{ content: "j/e/rkoff"; }
+
+a[href$="/user/"]:after,
+{ content: "/f/aggot"; }
+
+a[href$="/user/"]:after,
+{ content: "/fa/g"; }
+
+a[href$="/user/"]:after,
+{ content: "/fit/izen"; }
+
+a[href$="/user/"]:after,
+{ content: "/g/entooman"; }
+
+a[href$="/user/"]:after,
+{ content: "/gif/"; }
+
+a[href$="/user/"]:after,
+{ content: "/h/"; }
+
+a[href$="/user/"]:after,
+{ content: "/hc/"; }
+
+a[href$="/user/"]:after,
+{ content: "/marsh/hm/ellow"; }
+
+a[href$="/user/"]:after,
+{ content: "/hr/"; }
+
+a[href$="/user/"]:after,
+{ content: "/int/olerant"; }
+
+a[href$="/user/"]:after,
+{ content: "/jp/edo"; }
+
+a[href$="/user/"]:after,
+{ content: "/k/ommando"; }
+
+a[href$="/user/"]:after,
+{ content: "e/lit/ist"; }
+
+a[href$="/user/"]:after,
+{ content: "/m/anchild"; }
+
+a[href$="/user/"]:after,
+{ content: "nor/mlp/erson"; }
+
+a[href$="/user/"]:after,
+{ content: "/mu/tant"; }
+
+a[href$="/user/"]:after,
+{ content: "/n/igger"; }
+
+a[href$="/user/"]:after,
+{ content: "assh/o/le"; }
+
+a[href$="/user/"]:after,
+{ content: "di/p/shit"; }
+
+a[href$="/user/"]:after,
+{ content: "/pol/ack"; }
+
+a[href$="/user/"]:after,
+{ content: "/q/ueer"; }
+
+a[href$="/user/"]:after,
+{ content: "/r/"; }
+
+a[href$="/user/"]:after,
+{ content: "/r(9k)obot/"; }
+
+a[href$="/user/"]:after,
+{ content: "/s/"; }
+
+a[href$="/user/"]:after,
+{ content: "/sci/duck"; }
+
+a[href$="/user/"]:after,
+{ content: "/soc/"; }
+
+a[href$="/user/"]:after,
+{ content: "/sp/artan"; }
+
+a[href$="/user/"]:after,
+{ content: "/t/"; }
+
+a[href$="/user/"]:after,
+{ content: "fa/tg/uy"; }
+
+a[href$="/user/"]:after,
+{ content: "/toy/soldier"; }
+
+a[href$="/user/"]:after,
+{ content: "/trv/"; }
+
+a[href$="/user/"]:after,
+{ content: "fa/tv/irgin"; }
+
+a[href$="/user/"]:after,
+{ content: "sc/u/m"; }
+
+a[href$="/user/"]:after,
+{ content: "/v/irgin"; }
+
+a[href$="/user/"]:after,
+{ content: "/vg/"; }
+
+a[href$="/user/"]:after,
+{ content: "/vp/oreon"; }
+
+a[href$="/user/"]:after,
+{ content: "/w/"; }
+
+a[href$="/user/"]:after,
+{ content: "/wp/"; }
+
+a[href$="/user/"]:after,
+{ content: "/wsg/"; }
+
+a[href$="/user/"]:after,
+{ content: "/x/phile"; }
+
+a[href$="/user/"]:after,
+{ content: "/y/"; }
+
+a[href$="/user/"]:after,
+{ content: "t/3/apot"; }
+
+a[href$="/user/"]:after,
+{ content: "/i/nsurgent"; }
+
+a[href$="/user/"]:after,
+{ content: "d/ic/k"; }
+
+a[href$="/user/"]:after,
+{ content: "/wg/eean"; }
+
+a[href$="/user/"]:after,
+{ content: "/asp/ie"; }
+
+a[href$="/user/"]:after,
+{ content: "bi/gd/ick"; }
+
+a[href$="/user/"]:after,
+{ content: "/lgbt/"; }
+
+a[href$="/user/"]:after,
+{ content: "sc/out/"; }
+
+a[href$="/user/"]:after,
+{ content: "[s4s]sycat"; }
+
+a[href$="/user/"]:after,
+{ content: "/biz/realis"; }
+
+a[href$="/user/"]:after,
+{ content: "/vr/"; }
+
+a[href$="/user/"]:after,
+{ content: "/po/rnographer"; }
+*/
