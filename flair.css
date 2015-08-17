@@ -293,5 +293,5 @@ a[href$="/user/"]:after,
 { content: "/vr/"; }
 */
 a[href$="/user/Domslord"]:after,
+a[href$="/user/domslord"]:after,
 { content: "/po/rnographer"; }
-
