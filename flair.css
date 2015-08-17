@@ -1,7 +1,22 @@
 /* This makes it so flairs don't show up at the top of the page.  */
-a[title="Profile"]:after,a.upvoatsGiven:after{content:none;}
 
+a[title="Profile"]:after,
+a.upvoatsGiven:after {
+    content: none;
+}
+/*styles flairs*/
+
+a:after {
+    background: #FFF;
+    border: 1px solid #e6e6e6;
+    color: #000000;
+    line-height: 150%;
+    margin-right: 3px;
+    padding: 2px 4px;
+    vertical-align: middle;
+}
 /*Special Flairs*/
+
 a[href$="/user/Flux"]:after {
     content: " .## Αdmіn";
     color: #900
@@ -73,11 +88,14 @@ a[href$="/user/Domslord"] {
     color: #117743 !important;
 }
 a[href$="/user/CALL_ME_ISHMAEBY"]:after {
-    content: " " url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAOCAMAAAD+MweGAAAADFBMVEX///8AAADbAAD///+Ay8izAAAAAXRSTlMAQObYZgAAAEJJREFUeNptz0EKACAMA0FT//9n7YZiUXMIZC6lg8jxAKZTJMCE7S2QFsKsTmiS4ycRIZ1GTpCLuKUOKVAHW9vvpwu5WAFlaSFcjQAAAABJRU5ErkJggg==); }
-
+    content: " " url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAOCAMAAAD+MweGAAAADFBMVEX///8AAADbAAD///+Ay8izAAAAAXRSTlMAQObYZgAAAEJJREFUeNptz0EKACAMA0FT//9n7YZiUXMIZC6lg8jxAKZTJMCE7S2QFsKsTmiS4ycRIZ1GTpCLuKUOKVAHW9vvpwu5WAFlaSFcjQAAAABJRU5ErkJggg==);
+}
 /*Actual admin flairs*/
-a[href$="/user/Atko"]:after, a[href$="/user/PuttItOut"]:after { content: " " url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAMAAADHVLbdAAAAjVBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABZAAAAAABrAABVAAB5AAAAAACGAAAAAAA0AACIAABlAAB4AAC2AACfAACrAADKAAAAAABrAACfAACuAACzAADEAADNAADOAADkAADrAADyAAD0AAD/AADjfE8YAAAAInRSTlMANjxRVGVrdXl8gIaPl5+rrrC0v8PI0t/h5Obr7fLy9fX8W685egAAAJBJREFUeNptjUcSgzAQBIdkMDnnKLLA+//nWVZxdB+mqy+7QMGYjR82YwVQTZx3rki343yqoNQH8caD13A6agXhcBEtCZKF6BpCvNp5njMNWibcvgDTcRwdgC5s4h8+85+VBONnDJ4VRP1Nq7i/0t1HoouTnqazkL3tsvdNtlnGaW7AyNO4lP8sVTOE3rZqAV+1dQ5sIXW7CQAAAABJRU5ErkJggg==); }
 
+a[href$="/user/Atko"]:after,
+a[href$="/user/PuttItOut"]:after {
+    content: " " url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAMAAADHVLbdAAAAjVBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABZAAAAAABrAABVAAB5AAAAAACGAAAAAAA0AACIAABlAAB4AAC2AACfAACrAADKAAAAAABrAACfAACuAACzAADEAADNAADOAADkAADrAADyAAD0AAD/AADjfE8YAAAAInRSTlMANjxRVGVrdXl8gIaPl5+rrrC0v8PI0t/h5Obr7fLy9fX8W685egAAAJBJREFUeNptjUcSgzAQBIdkMDnnKLLA+//nWVZxdB+mqy+7QMGYjR82YwVQTZx3rki343yqoNQH8caD13A6agXhcBEtCZKF6BpCvNp5njMNWibcvgDTcRwdgC5s4h8+85+VBONnDJ4VRP1Nq7i/0t1HoouTnqazkL3tsvdNtlnGaW7AyNO4lP8sVTOE3rZqAV+1dQ5sIXW7CQAAAABJRU5ErkJggg==);
+}
 /*Retards*/
 /*
 a[href$="/user/"]:after,
