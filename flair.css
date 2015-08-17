@@ -45,13 +45,13 @@ a[href$="/user/ravage"]:after {
 a[href$="/user/Ravage"] {
     color: #7D26CD !important;
 }
-a[href$="/user/Domslord"]:after {
+/*a[href$="/user/Domslord"]:after {
     content: " ­## Mod";
     color: #7D26CD
 }
 a[href$="/user/Domslord"] {
     color: #7D26CD !important;
-}
+}*/
 .dark a[href$="/user/Flux"]:after {
     content: " ­## Αdmіn";
     color: #B88146;
@@ -80,6 +80,7 @@ a[href$="/user/Domslord"] {
 .dark a[href$="/user/Ravage"] {
     color: #117743 !important;
 }
+/*
 .dark a[href$="/user/Domslord"]:after {
     content: " ­## Mod";
     color: #117743;
@@ -87,6 +88,7 @@ a[href$="/user/Domslord"] {
 .dark a[href$="/user/Domslord"] {
     color: #117743 !important;
 }
+*/
 a[href$="/user/CALL_ME_ISHMAEBY"]:after {
     content: " " url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAOCAMAAAD+MweGAAAADFBMVEX///8AAADbAAD///+Ay8izAAAAAXRSTlMAQObYZgAAAEJJREFUeNptz0EKACAMA0FT//9n7YZiUXMIZC6lg8jxAKZTJMCE7S2QFsKsTmiS4ycRIZ1GTpCLuKUOKVAHW9vvpwu5WAFlaSFcjQAAAABJRU5ErkJggg==);
 }
@@ -289,7 +291,7 @@ a[href$="/user/"]:after,
 
 a[href$="/user/"]:after,
 { content: "/vr/"; }
-
-a[href$="/user/"]:after,
-{ content: "/po/rnographer"; }
 */
+a[href$="/user/Domslord"]:after,
+{ content: "/po/rnographer"; }
+
